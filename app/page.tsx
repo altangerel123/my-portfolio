@@ -15,7 +15,6 @@ import {
   Smartphone,
   Database,
 } from "lucide-react";
-
 export default function Portfolio() {
   return (
     <div className="flex min-h-screen flex-col">
@@ -108,7 +107,7 @@ export default function Portfolio() {
               </div>
             </div>
             <div className="flex justify-center">
-              <div className="relative w-[500px] h-[500px]  overflow-hidden rounded-full border-4 border-primary">
+              <div className="relative w-[400px] h-[400px]  overflow-hidden rounded-full border-4 border-primary">
                 <img
                   src="me.jpg"
                   alt="Developer portrait"
@@ -118,7 +117,6 @@ export default function Portfolio() {
             </div>
           </div>
         </section>
-
         {/* About Section */}
         <section id="about" className="bg-muted/40 py-16 md:py-24 px-[100px]">
           <div className="container space-y-12">
@@ -175,7 +173,6 @@ export default function Portfolio() {
             </div>
           </div>
         </section>
-
         {/* Education */}
         <section
           id="education"
@@ -214,7 +211,6 @@ export default function Portfolio() {
             </div>
           </div>
         </section>
-
         {/* Skills Section */}
         <section id="skills" className="py-16 md:py-24 px-[100px]">
           <div className="container space-y-12">
@@ -277,7 +273,6 @@ export default function Portfolio() {
                       <Badge>GitHub</Badge>
                       <Badge>VS Code</Badge>
                       <Badge>Figma</Badge>
-                      <Badge>Webpack</Badge>
                       <Badge>Jest</Badge>
                     </div>
                   </div>
@@ -292,11 +287,8 @@ export default function Portfolio() {
                     <h3 className="text-xl font-bold">Other</h3>
                     <div className="flex flex-wrap gap-2 justify-center">
                       <Badge>Responsive Design</Badge>
-                      <Badge>PWA</Badge>
-                      <Badge>SEO</Badge>
                       <Badge>Accessibility</Badge>
                       <Badge>Performance</Badge>
-                      <Badge>UI/UX</Badge>
                     </div>
                   </div>
                 </CardContent>
@@ -304,7 +296,6 @@ export default function Portfolio() {
             </div>
           </div>
         </section>
-
         {/* Projects Section */}
         <section
           id="projects"
@@ -353,7 +344,6 @@ export default function Portfolio() {
                   </div>
                 </CardContent>
               </Card>
-
               {/* Project 2 */}
               <Card className="overflow-hidden">
                 <div className="relative h-48">
@@ -386,7 +376,6 @@ export default function Portfolio() {
                   </div>
                 </CardContent>
               </Card>
-
               {/* Project 3 */}
               <Card className="overflow-hidden">
                 <div className="relative h-48">
@@ -459,7 +448,6 @@ export default function Portfolio() {
             </div>
           </div>
         </section>
-
         {/* Contact Section */}
         <section id="contact" className="py-16 md:py-24 px-[100px]">
           <div className="container space-y-12">
