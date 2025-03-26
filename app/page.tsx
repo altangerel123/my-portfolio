@@ -440,11 +440,80 @@ export default function Portfolio() {
                   </div>
                 </CardContent>
               </Card>
-            </div>
-            <div className="text-center">
-              <Button variant="outline" asChild>
-                <Link href="#">View All Projects</Link>
-              </Button>
+              {/* Project 5 */}
+              <Card className="overflow-hidden">
+                <div className="relative h-48">
+                  <img src="geld.png" alt="Carousel" />
+                </div>
+                <CardContent className="p-6">
+                  <div className="space-y-4">
+                    <div className="space-y-2">
+                      <h3 className="text-xl font-bold">Geld</h3>
+                    </div>
+                    <div className="flex flex-wrap gap-2">
+                      <Badge variant="outline">Next.js</Badge>
+                      <Badge variant="outline">React.js</Badge>
+                      <Badge variant="outline">Javascript</Badge>
+                      <Badge variant="outline">Tailwind CSS</Badge>
+                      <Badge variant="outline">Node.js</Badge>
+                      <Badge variant="outline">Express</Badge>
+                      <Badge variant="outline">MongoDB</Badge>
+                    </div>
+                    <div className="flex gap-4">
+                      <Button size="sm" variant="outline" asChild>
+                        <Link href="https://github.com/altangerel123/Geld">
+                          <Github className="mr-2 h-4 w-4" />
+                          Code
+                        </Link>
+                      </Button>
+                      <Button size="sm" asChild>
+                        <Link href="https://geld-income-zvr4.onrender.com/">
+                          <ExternalLink className="mr-2 h-4 w-4" />
+                          Demo
+                        </Link>
+                      </Button>
+                    </div>
+                  </div>
+                </CardContent>
+              </Card>
+              {/* Project 6 */}
+              <Card className="overflow-hidden">
+                <div className="relative h-48">
+                  <img src="Food.png" alt="FoodProject" />
+                </div>
+                <CardContent className="p-6">
+                  <div className="space-y-4">
+                    <div className="space-y-2">
+                      <h3 className="text-xl font-bold">FoodProject</h3>
+                    </div>
+                    <div className="flex flex-wrap gap-2">
+                      <Badge variant="outline">Next.js</Badge>
+                      <Badge variant="outline">React.js</Badge>
+                      <Badge variant="outline">Javascript</Badge>
+                      <Badge variant="outline">Typescript</Badge>
+                      <Badge variant="outline">Tailwind CSS</Badge>
+                      <Badge variant="outline">MUI</Badge>
+                      <Badge variant="outline">Node.js</Badge>
+                      <Badge variant="outline">Express</Badge>
+                      <Badge variant="outline">MongoDB</Badge>
+                    </div>
+                    <div className="flex gap-4">
+                      <Button size="sm" variant="outline" asChild>
+                        <Link href="https://github.com/altangerel123/FoodProject">
+                          <Github className="mr-2 h-4 w-4" />
+                          Code
+                        </Link>
+                      </Button>
+                      <Button size="sm" asChild>
+                        <Link href="">
+                          <ExternalLink className="mr-2 h-4 w-4" />
+                          Demo
+                        </Link>
+                      </Button>
+                    </div>
+                  </div>
+                </CardContent>
+              </Card>
             </div>
           </div>
         </section>
